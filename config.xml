@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <mssql>
+        <server>
+            servername
+        </server>
+        <database>
+            dbname
+        </database>
+        <user>
+            username
+        </user>
+        <password>
+            passwd
+        </password>
+    </mssql>
+    <smtp>
+        <server>
+            smtp.163.com
+        </server>
+        <username>
+            sender
+        </username>
+        <password>
+            passwd
+        </password>
+    </smtp>
+</root>
