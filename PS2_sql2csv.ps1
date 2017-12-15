@@ -13,7 +13,7 @@ $data_csv=Import-Csv $b
 Write-Host "配置参数..."
 $dbserver = $data_xml.root.mssql.server
 $dbname	= $data_xml.root.mssql.database
-$userid = $data_xml.root.mssql.user
+$userid = $data_xml.root.mssql.username
 $passwd = $data_xml.root.mssql.password
 $today = get-date
 $lastMon = $today.AddMonths(-1).ToString('yyyyMM')

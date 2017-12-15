@@ -1,28 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <root>
     <mssql>
-        <server>
-            servername
-        </server>
-        <database>
-            dbname
-        </database>
-        <user>
-            username
-        </user>
-        <password>
-            passwd
-        </password>
+        <server>servername</server>
+        <database>dbname</database>
+        <username>username</username>
+        <password>passwd</password>
     </mssql>
+    <oracle>
+        <datasource>DSN</datasource>
+        <username>username</username>
+        <password>password</password>
+    </oracle>
     <smtp>
-        <server>
-            smtp.163.com
-        </server>
-        <username>
-            sender
-        </username>
-        <password>
-            passwd
-        </password>
+        <server>smtp.163.com</server>
+        <username>sender</username>
+        <password>passwd</password>
     </smtp>
 </root>
